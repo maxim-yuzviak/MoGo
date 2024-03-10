@@ -1,0 +1,18 @@
+:root{
+    --logo-colour: #95E1D3;
+    --deco-col: #F38181;
+    --text-col: #333333;
+    --menu-text-color: #95E1D3;
+    --text-color: #B6B6B6;
+    --color-text: #F38181;
+}
+.logo{
+color: var(--logo-colour);
+}
+.active{
+    color: var(--color-text);
+}
+.title-text{
+    color: var(--text-col);
+}
+
