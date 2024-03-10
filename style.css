@@ -15,4 +15,9 @@ color: var(--logo-colour);
 .title-text{
     color: var(--text-col);
 }
-
+.menu-link{
+    color: var(--logo-colour);
+}
+.menu-item{
+    color: var(--logo-colour);
+}
