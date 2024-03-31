@@ -1,23 +1,155 @@
-:root{
-    --logo-colour: #95E1D3;
+:root {
+    --logo-color: #95E1D3;
     --deco-col: #F38181;
     --text-col: #333333;
     --menu-text-color: #95E1D3;
     --text-color: #B6B6B6;
     --color-text: #F38181;
 }
-.logo{
-color: var(--logo-colour);
+
+.logo {
+    color: var(--logo-color);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-decoration: none;
 }
-.active{
+
+.active {
     color: var(--color-text);
 }
-.title-text{
+
+.title-text {
     color: var(--text-col);
 }
-.menu-link{
-    color: var(--logo-colour);
+
+.menu-link {
+    color: var(--logo-color);
+    text-decoration: none;
 }
-.menu-item{
-    color: var(--logo-colour);
+
+.item {
+    color: var(--logo-color);
+    list-style: none;
+}
+
+/* .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+.menu-link:hover {
+    color: var(--deco-col);
+    text-decoration: none;
+}
+
+.title-text {
+    color: var(--text-col);
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+}
+
+.section-title {
+    color: var(--text-col);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.in-section-title {
+    color: var(--text-col);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.in-section-sub-title {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-sub-title {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.team-name {
+    color: rgb(51, 51, 51);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.team-worker {
+    color: rgb(182, 182, 182);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.copyright {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+::placeholder {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+.team-item {
+    list-style: none;
+}
+.button {
+    background-color: var(--menu-text-color);
+    color: #ffffff;
 }
