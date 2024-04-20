@@ -146,10 +146,25 @@
     line-height: 16px;
     letter-spacing: 0%;
 }
+
 .team-item {
     list-style: none;
 }
+
 .button {
     background-color: var(--menu-text-color);
     color: #ffffff;
+}
+
+.menu-item {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    outline: 1px solid darkviolet;
 }
